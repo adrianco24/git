@@ -92,6 +92,12 @@ Primero creo el repo y de ahi saco esto
 ### 26 - si hice modificaciones a mi servidor local y quiero que suban los cambios solo hago ahora
 ##### git push
 
+Segunramente me va a dar error ocupo el comando
+### git fetch (se descarga el historia sin los cambios)
+ahi podemos mirar el log y ver que se modifico
+
+### git pull (se descarga el historial con los cambios)
+
 
 ### 27 - Si hice modificaciones en mi servidor github y quiero descargar
 PS J:\Mi unidad\GIT\SQL\ACTAS> git config pull.rebase false
