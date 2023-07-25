@@ -66,35 +66,35 @@ Una vez que ejecutamos esto va a cambiar nuestro HEAD
 ## AHORA VIENE LA PAPA AGREGAR RAMA
 
 ### 19- para agregar una rama ocupamo branch y el nombre de la rama ejemplo:
-git branch login
+##### git branch login
 
 ### 20 - para cambiarnos de rama
- git switch login
+##### git switch login
 
 ### 21- Para actualizar los cambios que se fueron haciendo en la rama main ocupo merge
-git merge main
+##### git merge main
 
 ### 22- Para guardar modificaciones si tenemos que cambiarnos de rama pero no queremos hacer commit
-git stash
+##### git stash
 
 ### 23 - Para borrar stash 
-git stash drop
+##### git stash drop
 
 ### 24 - Para eliminar una rama ocupamos
- git branch -d nombre_rama
+##### git branch -d nombre_rama
 
 ### 25 - SUbir el codigo de git a github
 Primero creo el repo y de ahi saco esto
-git remote add origin https://github.com/adrianco24/git.git
-git branch -M main
-git push -u origin main
+##### git remote add origin https://github.com/adrianco24/git.git
+##### git branch -M main
+##### git push -u origin main
 
 ### 26 - si hice modificaciones a mi servidor local y quiero que suban los cambios solo hago ahora
-git push
+##### git push
 
 
 ### 27 - Si hice modificaciones en mi servidor github y quiero descargar
- PS J:\Mi unidad\GIT\SQL\ACTAS> git config pull.rebase false
+PS J:\Mi unidad\GIT\SQL\ACTAS> git config pull.rebase false
 PS J:\Mi unidad\GIT\SQL\ACTAS> git merge origin main
 merge: origin - not something we can merge
 PS J:\Mi unidad\GIT\SQL\ACTAS> git pull origin main
