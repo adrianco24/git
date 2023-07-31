@@ -104,3 +104,7 @@ PS J:\Mi unidad\GIT\SQL\ACTAS> git config pull.rebase false
 PS J:\Mi unidad\GIT\SQL\ACTAS> git merge origin main
 merge: origin - not something we can merge
 PS J:\Mi unidad\GIT\SQL\ACTAS> git pull origin main
+
+### 28 si hay algun error
+
+git pull origin main --allow-unrelated-histories
